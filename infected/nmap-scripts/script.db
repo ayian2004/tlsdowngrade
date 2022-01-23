@@ -1,0 +1,1 @@
+Entry { filename = "ssl-enum-ciphers.nse", categories = { "discovery", "intrusive", } }
