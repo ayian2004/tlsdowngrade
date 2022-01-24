@@ -1,5 +1,4 @@
 FROM ubuntu:latest
-MAINTAINER Ludovic Barman <ludovic.barman@protonmail.com>
 
 COPY scripts /mitm
 WORKDIR /mitm
