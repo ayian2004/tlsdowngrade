@@ -3,7 +3,7 @@ CORPORATE_SERVER="corporate-server.eurodyn.com" # this is actually just a demo w
 
 while true
 do
-    echo "Initiating connection to corporate server $CORPORATE_SERVER ..."
+    echo "Initiating connection to $CORPORATE_SERVER ..."
 
     # if not reachable, try again
     ping -c1 -W1 $CORPORATE_SERVER 1>/dev/null 2>&1
@@ -24,6 +24,8 @@ do
         else
             echo "Using weaker cipher suite (AES 128)..."
             echo "Success !"
+            echo "Exiting."
+        exit 0
         fi
     else
         echo "Server unreachable, retrying soon..."
