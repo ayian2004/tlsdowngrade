@@ -23,9 +23,7 @@ do
             echo "Done."
         else
             echo "Using weaker cipher suite (AES 128)..."
-            echo "Success !"
-            echo "Exiting."
-        exit 0
+            echo "Success !                     (Our downgrade attack worked!)"
         fi
     else
         echo "Server unreachable, retrying soon..."
