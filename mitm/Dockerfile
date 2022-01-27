@@ -9,5 +9,3 @@ RUN apt-get install -y --no-install-recommends apt-utils nano iptables python3 p
 RUN pip3 install --upgrade pip
 RUN pip3 install setuptools
 RUN pip3 install NetfilterQueue
-
-CMD ["/mitm/stayAlive.sh"]
