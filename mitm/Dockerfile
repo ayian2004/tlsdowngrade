@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:latest2
 
 COPY scripts /mitm
 WORKDIR /mitm
